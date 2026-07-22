@@ -149,9 +149,6 @@ PRODUCT_PACKAGES += \
     gralloc.default \
     vendor.qti.hardware.memtrack-service
 
-# Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
